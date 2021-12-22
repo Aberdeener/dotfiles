@@ -1,0 +1,7 @@
+[user]
+	name = Tadhg Boyle
+	email = tadhgsmboyle@gmail.com
+[credential]
+	helper = osxkeychain
+[core]
+	excludesfile = /Users/aberdeener/.gitignore
