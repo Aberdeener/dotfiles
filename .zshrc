@@ -17,3 +17,5 @@ eval "$(zoxide init zsh)"
 alias ls="exa -l --icons -h --git --group-directories-first"
 alias cat="bat --paging=never --theme=DarkNeon"
 alias cd="z"
+alias fix-spotlight-npm='find . -type d -name "node_modules" -exec touch "{}/.metadata_never_index" \;'
+alias fix-spotlight-composer='find . -type d -name "vendor" -exec touch "{}/.metadata_never_index" \;'
